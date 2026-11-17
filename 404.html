@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="vi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Đang chuyển tới App đặt xe ghép siêu tốc…</title>
+<meta name="robots" content="noindex">
+<script>
+(function(){
+  var NEW="https://xeghepsieutoc.github.io/", ADM="https://congthongtinbds.github.io/xe-ghep-ql/";
+  var p=location.pathname.replace(/^\/xe-ghep\/?/,"");
+  if(p==="index.html") p="";
+  var dest=(p==="admin.html")?ADM:NEW+p;
+  try{ if(navigator.serviceWorker) navigator.serviceWorker.getRegistrations().then(function(r){r.forEach(function(x){x.unregister();});}); }catch(e){}
+  location.replace(dest+location.search+location.hash);
+})();
+</script>
+<style>body{font-family:system-ui,sans-serif;text-align:center;padding:40px 16px;color:#0b4f30}a{color:#0b7a3e;font-weight:700}</style>
+</head><body>
+<p>Đang chuyển tới App đặt xe ghép siêu tốc…</p>
+<p><a href="https://xeghepsieutoc.github.io/">Bấm vào đây nếu không tự chuyển</a></p>
+</body></html>
